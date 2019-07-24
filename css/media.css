@@ -1,0 +1,95 @@
+@media screen and (min-width: 768px) {
+	#toplevel{
+		width: 80%;
+		margin: 0 auto;
+		background:url(../img/patern.png) repeat;
+		box-shadow: 0px 10px 10px 10px  #888888;
+	}
+	.topnav a {
+		width: 14.28%;	
+	}
+	#slikaprofila{
+		width: 100%;
+	}
+	div#mainkontakt{
+    	width:30%;
+    	max-width:30%;
+   		padding-left:25px;
+    	padding-right:25px;
+    	float:left;
+ 	}
+	div#mapakontakt2{
+    	width:70%;
+   		max-width:70%;
+   	 	height:500px;
+    	float:right;
+    	padding:15px;
+	}
+	div#side{
+   		width:30%;
+    	float:left;
+    	padding:10px;
+  	}
+	div.podaci{
+    	float:right;
+		width: 75%;
+	}
+	.kolona {
+    	float: left;
+    	width: 33.3%;
+    	margin-bottom: 16px;
+    	padding: 0 8px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.male img{
+		width: 32.4%;
+	}
+ 	.topnav a:not(:first-child) {
+	 	display: none;
+	}
+  	.topnav a.icon {
+    	float: right;
+    	display: block;
+  	}
+   	.topnav.responsive {
+		position: relative;
+	}
+  	.topnav.responsive .icon {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+  	}
+  	.topnav.responsive a {
+    	float: none;
+    	display: block;
+    	text-align: left;
+  	}
+	div#mainkontakt{
+    	width:100%;
+    	padding-left:13px;
+    	padding-right:13px;
+  	}
+	.prijava {
+		width:  100%;
+	}
+	.registracija {
+		width: 100%;
+	}
+	#slikaprofila{
+		width: 50%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	div#mapakontakt2{
+    	width:100%;
+    	height:500px;
+    	padding:15px;
+  	}
+	.kolona {
+        width: 100%;
+        display: block;
+    }
+}

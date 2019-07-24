@@ -1,0 +1,457 @@
+/*MAIN*/
+body{	
+  	color:#0a1622;
+	background-color: #949494;
+  	font-family:'Sarala';
+  	margin:0;
+}
+#toplevel{
+	background:url(../img/patern.png) repeat;		
+}
+* {
+	box-sizing: border-box;
+}
+div#main{
+    width:100%;
+    padding:10px;
+	min-height:91vh;
+}
+h2{
+  	font-family:inherit;
+  	font-weight:300;
+  	line-height:1;
+  	font-size:28px;
+}
+div#mapakontakt{
+  	width:70%;
+  	max-width:70%;
+  	height:500px;
+  	float:right;
+  	border-left:thin solid;
+	
+}
+div#sadrzaj.container{
+  	width:100%;
+  	padding:0px;
+}
+.okvir{
+  	display:block;
+  	padding:4px;
+  	margin-bottom:20px;
+  	line-height:1.42857143;
+  	background-color:#235689;
+  	border:1px solid #999999;
+  	border-radius:4px;
+  	-webkit-transition:border .2s ease-in-out;
+  	color:white;
+}
+a:focus, a:hover{
+  	color:#070707;
+  	background-color:rgba(120,120,120,0.22);
+  	text-decoration:none;
+}
+iframe{
+  	border-radius:15px;
+	border: 2px solid black;
+}
+
+/*NAVBAR*/
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+.topnav a {
+  	float: left;
+  	display: block;
+    color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 15px;
+}
+.topnav a:hover {
+ 	background-color: #DDDDDD;
+  	color: black;
+}
+.active {
+  	background-color:#235689;
+  	color: white;
+}
+.topnav .icon {
+  	display: none;
+}
+
+/*VESTI*/
+p.vest{
+	text-align:justify;
+  	font-size:medium;
+}
+img#slikauvest1.img-rounded{
+  	float:right;
+  	padding-top:5px;
+  	padding-left:5px;
+}
+
+img#slikavest1.img-rounded{
+  	float:left;
+  	margin-top:5px;
+  	margin-right:10px;
+  	border-radius:15px;
+  	border:4px solid #235689;
+}
+img#slikavesttt.img-rounded{
+  	float:right;
+  	padding-top:3px;
+  	padding-left:5px;
+  	margin-right:-102px;
+}
+
+img#slikaizvest3.img-rounded{
+  	float:left;
+  	padding-top:6px;
+  	margin-right:10px;
+  	width:250px;
+  	border-radius:15px;
+  	border:4px solid #235689;
+}
+img#slikavest3.img-rounded{
+  	padding-top:6px;
+  	margin-right:10px;
+  	margin-bottom:10px;
+  	width:60%;
+  	border-radius:15px;
+  	border:5px solid #235689;
+}
+img#slikavestt.img-rounded{
+  	width:100%;
+  	padding-bottom:5px;
+}
+div#rakijee.vest{
+  	padding-bottom:25px;
+}
+div.vest{
+  	height:33%;
+  	min-height:250px;
+  	margin-bottom:10px;
+}	
+a.opsirnije{
+  	float:right;
+  	color:#ffffff;
+  	background-color:#235689;
+  	border-radius:3px;
+  	padding:3px;
+  	border:thin solid rgb(252,252,252);
+  	padding-right:6px;
+}
+h1#nasiproizvodi{
+  	padding-left:14px;
+}
+div#rakije.row{
+  	padding-top:10px;
+}
+img#slikaizvesti1{
+  	width:50%;
+  	border-radius:30px;
+  	margin-top:5px;
+  	margin-bottom:25px;
+  	border:5px solid #235689;
+}
+
+/*KONTAKT*/
+input#poruka{
+	margin-top: 3px;
+  height:120px;
+  width:100%;
+}
+
+input{
+  color:rgb(0,0,0);
+  width:100%;
+  text-align:center;
+}
+
+div#posaljinam.vest{
+  padding-bottom:40px;
+  padding-left:5px;
+  padding-right:5px;
+  border:thin solid;
+  background-color:#235689;
+  color:white;
+  border-radius:10px;
+}
+
+
+p.aaa{
+  padding-top:2px;
+  margin-top:3px;
+	margin-bottom: -5px;
+}
+
+div#vest3.vest{
+  padding-top:10px;
+}
+hr#hr{
+  margin-top:20px;
+}
+button#posalji.btn.btn-default{
+  float:right;
+	margin-top: -0.3px;
+}
+p#poruke{
+  width:35%;
+  float:left;
+  font-size:13px;
+  padding-top:0px;
+	margin-top: 2px;
+}
+p#kontaktforma.aaa{
+  font-size:23px;
+	color: black;
+}
+div#porukeidugme{
+  padding-top:7px;
+}
+
+
+/*TIM*/
+.profilne {
+	width: 95%;
+	min-width: 130px;
+	float: left;
+}
+.slika {
+	width: 25%;
+	float: left;
+}
+.timski {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+.opis {
+    padding: 0 16px;
+}
+.opis::after, .red::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.title {
+    color: grey;
+}
+
+.profil {
+	width: 20%;
+	float: right;
+	margin-left: 10px;
+	border: 2px solid black;
+	min-width: 100px;
+	max-width: 250px;
+	border-radius: 15px;
+}
+
+/*PROIZVODI*/
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:#333333;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.spustalica:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.proizvod {
+	display: block;
+  	width: 100%;
+  	height: auto;
+}
+.spustalica {
+  position: relative;
+  width: 100%;
+}
+
+/*KONKURS*/
+#konkurss {
+	width: 30%;
+	float: right;
+}
+#pading {
+	width: 100%;
+}
+#row {
+	width: 80%;
+	float: left;
+}
+#co2 {
+	display: none;
+}
+#co {
+	display: none;
+}
+
+/*GALERIJA*/
+.velika img{
+	width: 70%;
+	margin-top:10px;
+	border: thick solid rgba(51,51,51,1.00);
+	border-style: double;
+}
+.male{
+  	width: 100%;
+  	margin: auto;
+}
+.male img{
+	width: 16%;
+	border: 4px solid rgba(51,51,51,1.00);
+	border-style: double;
+}
+.male img:focus{
+ 	border: 4px solid rgba(35,86,137,1.00);
+}
+
+
+/*INPUT POLJA I DUGMAD*/
+.poljezaunos {
+	margin-top: -20px;
+	border-radius: 0px;
+	background-color: white;
+}
+
+.dugme {
+	margin: auto 0;
+	width: 120px;
+	height: 50px;
+	border: thin solid black;
+	background-color: black;
+	font-size: 16px;
+	color: white;
+	
+}
+.prijava {
+	width: 30%;
+	min-width: 300px;	
+	position: absolute;	
+}
+.korisnicko {
+	margin-bottom: -6px;
+}
+.korisnicko2 {
+	margin-top: -0.5px;
+	margin-bottom: -6px;
+}
+
+.registracija {
+	width: 30%;
+	min-width: 300px;
+	display: none;
+	position: absolute;
+}
+.klik {
+	margin-top: 10px;
+	width: 100px	;
+	background: black;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.konkurs {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 2px 12px 10px 0px;
+    font: 13px;
+}
+.konkurs li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+}
+.imeprezime{
+    width: 49%;
+}
+.posalji{
+    background: black;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.posalji2{
+	margin-top: 5px;
+    background: black;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.posalji3{
+	margin-top: 35px;
+    background: black;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.vasaporuka {
+	height: 100px;
+}
+input {
+	border: thin solid rgba(0,0,0,0.80);
+	height: 25px;
+	background-color:rgba(237,237,237,0.80);
+	border-radius: 15px;
+}
+select{
+    border: thin solid;
+	height: 25px;
+	width: 100%;
+	background-color: rgba(237,237,237,0.80);
+	border-radius: 15px;
+}
+.prijava1 {
+	border-radius: 0px;
+	margin-top: 10px;
+	height: 30px;
+}
+.prijava2 {
+	position: absolute;
+	border-radius: 0px;
+	margin-top: -1px;
+	height: 30px;
+}
+#dugmeprijava {
+	background-color: rgba(35,86,137,1.00);
+}
+.bezradiusa {
+	border-radius: 0px;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.button:hover {
+    background-color: rgba(35,86,137,1.00);
+}
+
+button:hover {
+    background-color: rgba(35,86,137,1.00);
+}
+
+#desnodugme {
+	float: right;
+	border-radius: 10px;
+}
